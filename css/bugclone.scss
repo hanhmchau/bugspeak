@@ -1,0 +1,13 @@
+@import 'variables';
+
+:not(.favorites) > .inventory-list {
+    .item {
+        .item-controls {
+            flex: 0 0 100px !important;
+    
+            .item-control:not(:last-child) {
+                padding-right: 5px;
+            }
+        }
+    }
+}

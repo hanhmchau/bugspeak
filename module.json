@@ -1,0 +1,25 @@
+{
+	"name": "bugclone",
+	"title": "Bugclone",
+	"description": "Clone an item owned by an actor. Only supports the Tidy5e Sheet.",
+	"version": "0.0.1",
+	"minimumCoreVersion": "0.7.0",
+	"compatibleCoreVersion": "0.7.7",
+	"author": "Arietta",
+
+	"scripts": [],
+	"esmodules": ["main.js"],
+	"styles": ["dist/bugclone.css"],
+
+	"languages": [
+		{
+		  "lang": "en",
+		  "name": "English",
+		  "path": "lang/en.json"
+		}
+	  ],
+	
+	"url": "https://github.com/hanhmchau/bugclone",
+	"manifest": "https://raw.githubusercontent.com/hanhmchau/bugclone/master/module.json",
+	"download": "https://github.com/hanhmchau/bugclone/archive/0.0.1.zip"
+}
