@@ -1,2 +1,2 @@
-:not(.favorites)>.inventory-list .item .item-controls{flex:0 0 100px !important}:not(.favorites)>.inventory-list .item .item-controls .item-control:not(:last-child){padding-right:5px}
+:not(.favorites)>.inventory-list .item .item-controls .item-control:not(:last-child){padding-right:5px}
 

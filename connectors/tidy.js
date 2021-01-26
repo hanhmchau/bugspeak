@@ -4,6 +4,10 @@ export default class TidySheetConnector {
 	}
 
 	connect(event, $sheet, data) {
+		this._connectClassicMode(event, $sheet, data);
+	}
+
+	_connectClassicMode(event, $sheet, data) {
 		const actorId = data.actor._id;
 		const $items = $sheet.find(".item-list .item:not(.favorites .item, .effects-list .item)");
 		$items.each((i, el) => {
@@ -19,5 +23,9 @@ export default class TidySheetConnector {
 				$controls.prepend($cloneButton);
 			}
 		});
+	}
+
+	_connectContextMenuMode() {
+		
 	}
 }

@@ -2,9 +2,7 @@
 
 :not(.favorites) > .inventory-list {
     .item {
-        .item-controls {
-            flex: 0 0 100px !important;
-    
+        .item-controls {   
             .item-control:not(:last-child) {
                 padding-right: 5px;
             }
