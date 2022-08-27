@@ -3,12 +3,12 @@ export default class ItemCloner {
         const actor = this._findActor(actorId);
         const item = this._findOwnedItem(actor, itemId);
         const clone = this._makeClone(item);
-        actor.createOwnedItem(clone);
+        actor.createEmbeddedDocuments("Item", [clone]);
     }
 
     static _findActor = actorId => game.actors.get(actorId);
 
-    static _findOwnedItem = (actor, itemId) => actor.getOwnedItem(itemId);
+    static _findOwnedItem = (actor, itemId) => actor.items.get(itemId);
 
     static _makeClone = item => ({ 
         ... item.data,
