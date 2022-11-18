@@ -1,25 +1,22 @@
 {
-	"name": "bugclone",
-	"title": "Bugclone",
-	"description": "Clone an item owned by an actor. Only supports the Tidy5e Sheet.",
-	"version": "0.0.5",
-	"minimumCoreVersion": "0.7.0",
+	"name": "bugspeak",
+	"title": "Bugspeak",
+	"description": "Speak as things.",
+	"version": "0.0.1",
+	"minimumCoreVersion": "9",
 	"compatibleCoreVersion": "9",
 	"author": "Arietta",
 
-	"scripts": [],
-	"esmodules": ["main.js"],
-	"styles": ["dist/bugclone.css"],
-
+	"esmodules": ["scripts/speaking-as.js"],
+	"styles": ["styles/speaking-as.css"],
 	"languages": [
 		{
-		  "lang": "en",
-		  "name": "English",
-		  "path": "lang/en.json"
+			"lang": "en",
+			"name": "English",
+			"path": "languages/en.json"
 		}
-	  ],
-	
-	"url": "https://github.com/hanhmchau/bugclone",
-	"manifest": "https://raw.githubusercontent.com/hanhmchau/bugclone/master/module.json",
-	"download": "https://github.com/hanhmchau/bugclone/archive/0.0.5.zip"
+	],
+	"url": "https://github.com/hanhmchau/bugspeak",
+	"manifest": "https://raw.githubusercontent.com/hanhmchau/bugspeak/master/module.json",
+	"download": "https://github.com/hanhmchau/bugspeak/archive/0.0.1.zip"
 }
